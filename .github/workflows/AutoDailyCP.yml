@@ -39,10 +39,7 @@ jobs:
         run: |
           # 请根据日志提示的文件名修改此段代码
           cat>formdb/37.json<<EOF
-          [
-
-
-    {
+          [{
         "wid": "3132",
         "formWid": "174",
         "fieldType": 2,
