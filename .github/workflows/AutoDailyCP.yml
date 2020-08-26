@@ -29,7 +29,7 @@ jobs:
           sudo -E apt-get -yqq install python3
       - name: Download DailyCP
         run: |
-          git clone https://gitee.com/Finch1/FuckDailyCP
+          git https://gitee.com/helianchichi/FuckDailyCP
           mv ./FuckDailyCP/* ./
       - name: Install extensions
         run: |
